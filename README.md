@@ -1,62 +1,62 @@
 The CPLS can score multiple events such as:
 
-Deleting "bad" users
+*Deleting "bad" users
 
-Creating new "good" users
+*Creating new "good" users
 
-Changing passwords on accounts
+*Changing passwords on accounts
 
-Removing users from the admininstrator group
+*Removing users from the admininstrator group
 
-Creating groups
+*Creating groups
 
-Securing /etc/sudoers file
+*Securing /etc/sudoers file
 
-Disabling guest login
+*Disabling guest login
 
-Disabling autologin
+*Disabling autologin
 
-Disabling usernames on the login page
+*Disabling usernames on the login page
 
-Setting the minimum password age
+*Setting the minimum password age
 
-Setting the maximum password age
+*Setting the maximum password age
 
-Setting the maximum number of login tries
+*Setting the maximum number of login tries
 
-Setting password history value
+*Setting password history value
 
-Setting password length
+*Setting password length
 
-Installing "good" programs
+*Installing "good" programs
 
-Uninstalling "bad" programs
+*Uninstalling "bad" programs
 
-Deleting prohibited files
+*Deleting prohibited files
 
-Removing backdoors (malicious services)
+*Removing backdoors (malicious services)
 
-Enabling the firewall
+*Enabling the firewall
 
-Securing ssh
+*Securing ssh
 
-Configuring the hosts files
+*Configuring the hosts files
 
-Updating the kernel
+*Updating the kernel
 
-Removing things from user crontabs
+*Removing things from user crontabs
 
-Updating clamav virus definitions
+*Updating clamav virus definitions
 
-Removing things from startup
+*Removing things from startup
 
-Answering the forensics question correctly
+*Answering the forensics question correctly
 
-Changing update options
+*Changing update options
 
-Adding or uncommenting lines from config files
+*Adding or uncommenting lines from config files
 
-Deleting or commenting lines from config files
+*Deleting or commenting lines from config files
 
 
 This scoring system can also deduct points for deleting good users and deleting desired programs.
@@ -65,8 +65,13 @@ This can also be set to run on "Anti-Detection" mode, which makes it so student 
 
 How to Install:
 Set up your image and put your vulnerabilities in place.
+
 Install the following prerequisites: git and python-tk.
+
 Clone into CPLS by typing: sudo git clone https://github.com/GrievingTuna/CPLS
+
 Run python configurator.py to set up the config file.
+
 Run the installer by typing sudo ./install in the CPLS directory.
+
 After you are satisfied that it is working how you want, you can delete the CPLS directory.
